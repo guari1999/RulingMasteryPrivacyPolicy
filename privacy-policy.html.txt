@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ruling Mastery TCG Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        p, li {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p><strong>Last updated:</strong> 28 May 2026</p>
+
+<p>
+The application <strong>Ruling Mastery TCG Library</strong> (the “App”) is operated by 
+<strong>[Your Name or Company Name]</strong>. This Privacy Policy describes how we collect, use, and protect your data.
+</p>
+
+<h2>1. Types of Data Collected</h2>
+
+<h3>a. Data Provided by the User (Pro Mode)</h3>
+<p>If you decide to create an account to enable Pro features, we collect:</p>
+<ul>
+    <li><strong>Email Address:</strong> Managed through Supabase Auth for authentication and cloud synchronization.</li>
+    <li><strong>Synchronization Data:</strong> Custom decks, duel history, card notes, and app settings are saved in the Supabase cloud database so you can access them across multiple devices.</li>
+</ul>
+
+<h3>b. Data Stored Locally (Free and Pro Mode)</h3>
+<ul>
+    <li><strong>Cards Database:</strong> The names and effects of cards are downloaded and stored in a local database (Room).</li>
+    <li><strong>Audio Recordings:</strong> The App allows you to record the audio of your duels. These audio files are saved exclusively in the app’s private folder on your device. We do not upload or share your audio recordings on our servers.</li>
+</ul>
+
+<h3>c. Automatically Collected Data (Advertising and Analytics)</h3>
+<ul>
+    <li><strong>Google AdMob:</strong> The App uses AdMob to display advertisements. AdMob may collect unique device identifiers (such as the Android advertising ID) to personalize ads and analyze ad performance.</li>
+</ul>
+
+<h2>2. Purposes of Data Processing</h2>
+<p>We use the data to:</p>
+<ul>
+    <li>Ensure proper functioning of the Life Points calculator, Deck Editor, and Quiz system.</li>
+    <li>Synchronize data across devices for registered users.</li>
+    <li>Notify users about new tournaments through the Realtime system.</li>
+    <li>Enable dynamic fetching of translations and ruling packs (e.g., Edison, etc.) from external servers.</li>
+</ul>
+
+<h2>3. Third-Party Services</h2>
+<p>The App interacts with the following external services:</p>
+<ul>
+    <li><strong>Supabase:</strong> For authentication (GoTrue) and the cloud database (PostgREST).</li>
+    <li><strong>YGOPRODeck API:</strong> For initial download and updates of the cards database.</li>
+    <li><strong>GitHub:</strong> For retrieving Markdown files (.md) related to rulings for various formats.</li>
+    <li><strong>Google AdMob:</strong> For providing advertising services.</li>
+</ul>
+
+<h2>4. Data Transfers and Security</h2>
+<ul>
+    <li>Card data and rulings are transferred using secure HTTPS connections.</li>
+    <li>Synchronization data is protected by Supabase Row Level Security (RLS), ensuring that only you can access your decks and duels.</li>
+    <li>We do not sell or share your personal data with third parties for marketing purposes.</li>
+</ul>
+
+<h2>5. User Rights (GDPR)</h2>
+<p>In accordance with the GDPR, you have the right to:</p>
+<ul>
+    <li>Access the data stored in the cloud.</li>
+    <li>Correct or delete your Pro account at any time.</li>
+    <li>Withdraw consent for advertising tracking through Android settings.</li>
+    <li>Request data portability for your decks.</li>
+</ul>
+
+<h2>6. Data Retention</h2>
+<ul>
+    <li>Local data is deleted if you uninstall the App or clear app data from your device’s settings.</li>
+    <li>Cloud data is retained until you request account deletion.</li>
+</ul>
+
+<h2>7. Contact</h2>
+<p>
+For data deletion requests or privacy-related questions, you can contact us at:<br>
+<strong>Email:</strong> [Your Email Address]
+</p>
+
+</body>
+</html>
