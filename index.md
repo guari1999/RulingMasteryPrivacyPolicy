@@ -1,47 +1,105 @@
-Privacy Policy
-Last updated: [Insert Date, e.g., 28 May 2026]
 
-The application Ruling Mastery TCG Library (the “App”) is operated by [Your Name or Company Name]. This Privacy Policy describes how we collect, use, and protect your data.
+# **📜 Privacy Policy – The Duelist Toolkit**  
+**Last updated: [22 July 2026]**
 
-1. Types of Data Collected
-a. Data Provided by the User (Pro Mode)
-If you decide to create an account to enable Pro features, we collect:
+This Privacy Policy explains how **The Duelist Toolkit** (“the App”) handles user data.  
+The App is developed and maintained by Luca Guarino .  
+For any privacy‑related inquiries, you can contact us at: rulingmastery@gmail.com .
 
-Email Address: Managed through Supabase Auth for authentication and cloud synchronization.
-Synchronization Data: Custom decks, duel history, card notes, and app settings are saved in the Supabase cloud database so you can access them across multiple devices.
-b. Data Stored Locally (Free and Pro Mode)
-Cards Database: The names and effects of cards are downloaded and stored in a local database (Room).
-Audio Recordings: The App allows you to record the audio of your duels. These audio files are saved exclusively in the app’s private folder on your device. We do not upload or share your audio recordings on our servers.
-c. Automatically Collected Data (Advertising and Analytics)
-Google AdMob: The App uses AdMob to display advertisements. AdMob may collect unique device identifiers (such as the Android advertising ID) to personalize ads and analyze ad performance.
-2. Purposes of Data Processing
-We use the data to:
+---
 
-Ensure proper functioning of the Life Points calculator, Deck Editor, and Quiz system.
-Synchronize data across devices for registered users.
-Notify users about new tournaments through the Realtime system.
-Enable dynamic fetching of translations and ruling packs (e.g., Edison, etc.) from external servers.
-3. Third-Party Services
-The App interacts with the following external services:
+## **1. No Account Required**
+The App does **not** provide login or account creation features.  
+We do **not** collect personal identifiers such as names, email addresses, passwords, or any form of user registration data.
 
-Supabase: For authentication (GoTrue) and the cloud database (PostgREST).
-YGOPRODeck API: For initial download and updates of the cards database.
-GitHub: For retrieving Markdown files (.md) related to rulings for various formats.
-Google AdMob: For providing advertising services.
-4. Data Transfers and Security
-Card data and rulings are transferred using secure HTTPS connections.
-Synchronization data is protected by Supabase Row Level Security (RLS), ensuring that only you can access your decks and duels.
-We do not sell or share your personal data with third parties for marketing purposes.
-5. User Rights (GDPR)
-In accordance with the GDPR, you have the right to:
+---
 
-Access the data stored in the cloud.
-Correct or delete your Pro account at any time.
-Withdraw consent for advertising tracking through Android settings.
-Request data portability for your decks.
-6. Data Retention
-Local data is deleted if you uninstall the App or clear app data from your device’s settings.
-Cloud data is retained until you request account deletion.
-7. Contact
-For data deletion requests or privacy-related questions, you can contact us at:
-Email: [Your Email Address] 
+## **2. Data Stored Locally on the Device**
+All functional data used by the App is stored **locally** on your device.  
+None of this data is uploaded to external servers.
+
+### **a. Card Database**
+The App downloads card information (names, effects, attributes) from external sources.  
+This data is stored locally to allow offline access.  
+No user data is collected during this process.
+
+### **b. Audio Recordings**
+The App allows users to record duel audio.  
+- Audio files are stored **exclusively** in the App’s private storage.  
+- They are **never uploaded**, **never transmitted**, and **never shared** automatically.  
+- Only the user can access, manage, or delete these files.
+
+### **c. User Images**
+Users may select images from their device to use as backgrounds.  
+These images:  
+- remain **only on the device**,  
+- are **not transmitted** to any server,  
+- are **not shared** by the App.
+
+### **d. PDF Generation**
+The App can generate a PDF containing duel history and user notes.  
+- The PDF is created **locally** on the device.  
+- Sharing the PDF is **entirely user‑initiated** through external apps (e.g., email, messaging).  
+- The App does not upload or transmit PDF content.
+
+---
+
+## **3. Automatically Collected Data (Advertising)**
+The App uses **Google AdMob** to display advertisements.
+
+AdMob may collect:
+- device identifiers (e.g., Android Advertising ID),  
+- coarse location,  
+- usage data related to ad performance.
+
+This data is processed by Google according to its own Privacy Policy.  
+The App does not access or store this information.
+
+---
+
+## **4. External Services Used by the App**
+The App interacts with external services **only to download public data**, never to upload user data.
+
+- **YGOPRODeck API** – downloads card information.  
+- **GitHub (public content)** – downloads ruling files (.md).  
+- **Google AdMob** – provides advertising.
+
+All communications occur over **secure HTTPS connections**.
+
+---
+
+## **5. Data Sharing**
+The App **does not share any user‑generated data** with third parties.  
+The only data shared is the **Advertising ID**, handled automatically by Google AdMob for ad personalization and analytics.
+
+No audio, images, notes, decks, or PDFs are ever shared unless the **user chooses to share them manually**.
+
+---
+
+## **6. Security**
+- Local data is stored in the App’s private directory, inaccessible to other apps.  
+- External data transfers use HTTPS encryption.  
+- The App does not store sensitive personal information.
+
+---
+
+## **7. User Rights (GDPR)**
+Since the App does not collect personal identifiers, GDPR rights apply only to data stored locally on the device.
+
+Users may:
+- delete audio, images, and PDFs directly from their device;  
+- remove all App data by uninstalling the App or clearing its storage;  
+- disable ad personalization through Android’s system settings.
+
+---
+
+## **8. Data Retention**
+- **Local data** remains on the device until the user deletes it or uninstalls the App.  
+- The App does **not** store any data on external servers.
+
+---
+
+## **9. Contact**
+For privacy questions or data‑related requests, contact:
+
+📧 rulingmastery@gmail.com
